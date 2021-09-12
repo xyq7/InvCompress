@@ -27,10 +27,8 @@ pip install -U pip && pip install -e .
 conda install -c conda-forge tensorboard
 ```
 
-## Usage
-
 ### Evaluation
-If you want evaluate with pretrained model, please download from [Google drive](https://drive.google.com/file/d/1y6w60TPfvMRMC0iWpLNsSmfn7ZHevbRX/view?usp=sharing) or [Baidu cloud](https://pan.baidu.com/s/1D3RGIHAtOP9f7ZS_11R0QQ) (code: a7jd) and put in ./experiments/
+If you want evaluate with pretrained model, please download from [Google drive](https://drive.google.com/file/d/1m35JFz00V7UUGQFjx6szfyDNvI2weAMW/view?usp=sharing) or [Baidu cloud](https://pan.baidu.com/s/14y1FA4qQ3pEB4KHUZE79RQ) (code: dfsz) and put in ./experiments/
 
 Some evaluation dataset can be downloaded from 
 [kodak dataset](http://r0k.us/graphics/kodak/), [CLIC](http://challenge.compression.cc/tasks/)
