@@ -31,7 +31,7 @@ conda install -c conda-forge tensorboard
 If you want evaluate with pretrained model, please download from [Google drive](https://drive.google.com/file/d/1m35JFz00V7UUGQFjx6szfyDNvI2weAMW/view?usp=sharing) or [Baidu cloud](https://pan.baidu.com/s/14y1FA4qQ3pEB4KHUZE79RQ) (code: dfsz) and put in ./experiments/
 
 Some evaluation dataset can be downloaded from 
-[kodak dataset](http://r0k.us/graphics/kodak/), [CLIC](http://challenge.compression.cc/tasks/)
+[kodak dataset](http://r0k.us/graphics/kodak/), [CLIC](http://challenge.compression.cc/tasks/), and [Tecnick](https://sourceforge.net/projects/testimages/files/OLD/OLD_SAMPLING/testimages.zip)
 
 Note that as mentioned in original [CompressAI](https://github.com/InterDigitalInc/CompressAI), "Inference on GPU is not recommended for the autoregressive models (the entropy coder is run sequentially on CPU)." So for inference of our model, please run on CPU.
 ```bash
@@ -77,6 +77,7 @@ If you find this work useful for your research, please cite:
     title = {Enhanced Invertible Encoding for Learned Image Compression}, 
     author = {Yueqi Xie and Ka Leong Cheng and Qifeng Chen},
     booktitle = {Proceedings of the ACM International Conference on Multimedia},
+    pages = {162--170},
     year = {2021}
 }
 ```
